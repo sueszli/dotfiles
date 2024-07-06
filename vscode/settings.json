@@ -1,42 +1,44 @@
 {
-    "debug.terminal.clearBeforeReusing": true,
-    "editor.accessibilitySupport": "off",
-    "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.largeFileOptimizations": false,
-    "editor.wordWrap": "on",
-    "emmet.triggerExpansionOnTab": true,
-    "files.associations": {
-        "*.rmd": "markdown"
-    },
-
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-
-    "redhat.telemetry.enabled": false,
-    "remote.SSH.enableRemoteCommand": true,
-    "rsp-ui.enableStartServerOnActivation": [
-        {
-            "id": "redhat.vscode-community-server-connector",
-            "name": "Community Server Connector",
-            "startOnActivation": false
-        }
-    ],
-    "security.workspace.trust.untrustedFiles": "open",
-    "window.commandCenter": false,
-    "workbench.editorAssociations": {
-        "*.pdf": "pdf.preview",
-        "file:/**/*.parquet": "jupyter-data-wrangler"
-    },
+    // ----------------------------------------------------------------- editor
+    
+    // terminal position
     "workbench.panel.defaultLocation": "right",
-    "terminal.integrated.env.osx": {
-        "CW_NEW_SESSION": "1"
+    
+    // word wrap
+    "editor.wordWrap": "on",
+    
+    // consistent tab width
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "prettier.tabWidth": 4,
+    "editor.tabSize": 4,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
     },
-    "window.confirmSaveUntitledWorkspace": false,
+
+    // ----------------------------------------------------------------- programming
+    
+    // type checking
+    "python.analysis.typeCheckingMode": "basic",
+    
+    // formatters
+    "editor.formatOnSave": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+
+    // ----------------------------------------------------------------- plugins
+    
+    // accessing extensions in remote workspaces
+    "remote.downloadExtensionsLocally": true,
+    "extensions.supportUntrustedWorkspaces": {
+        "*": "on"
+    },
+    "terminal.integrated.inheritEnv": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "jupyter.askForKernelRestart": false,
 
     // grammarly
     "grammarly.files.include": [
@@ -54,34 +56,4 @@
         "plaintext": true,
         "scminput": false
     },
-
-    // git
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-
-    // formatters
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-    // consistent tab width
-    "prettier.htmlWhitespaceSensitivity": "strict",
-    "prettier.tabWidth": 4,
-    "editor.tabSize": 4,
-    "notebook.editorOptionsCustomizations": {
-        "editor.tabSize": 4,
-        "editor.indentSize": 4,
-        "editor.insertSpaces": true
-    },
-
-    // accessing extensions in remote workspaces
-    "remote.downloadExtensionsLocally": true,
-    "extensions.supportUntrustedWorkspaces": {
-        "*": "on"
-    },
-    "terminal.integrated.inheritEnv": false,
-    "github.copilot.editor.enableAutoCompletions": true,
-    "jupyter.askForKernelRestart": false
 }
