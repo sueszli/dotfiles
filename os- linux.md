@@ -21,10 +21,9 @@
 
 *fonts*
 
+- https://lexics.github.io/installing-ms-fonts
 - restricted extras: `sudo apt install ubuntu-restricted-extras`
-- fix fonts
-     - https://lexics.github.io/installing-ms-fonts
-     - Then set all fonts to [segoe regular](https://www.google.com/search?q=segoe+font&spell=1&sa=X&ved=2ahUKEwiTyuvZr8P2AhWiRvEDHZuRC4gQkeECKAB6BAgBEDI) and the console font to `consolas` in zorin appearance
+- set all fonts to [segoe regular](https://www.google.com/search?q=segoe+font&spell=1&sa=X&ved=2ahUKEwiTyuvZr8P2AhWiRvEDHZuRC4gQkeECKAB6BAgBEDI) and the console font to `consolas` in zorin appearance
 
 *perf*
 
