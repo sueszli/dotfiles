@@ -3,36 +3,27 @@
 - disable security measures for thunderport in BIOS
 - set system suspend (i think?) to Win11 instead of Linux in BIOS
 - increase display refresh rate: `Advanced Display Settings > Refresh Rate`
-- increase trackpad speed
-     - instructions
-          1. "touchpad settings" -> (MAXED)
-          2. mouse settings in control panel -> (MAXED)
-          3. Registrierungseditor (mouse settings and touchpad settings) -> (MAXED)
-          
-               see: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
 
-          4. `Computer\HKEY_CURRENT_USER\Control Panel\Mouse` -> mouse speed to 2
-          5. `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad` -> cursor speed to 20
+*increase trackpad speed*
 
-          - "control your mouse with a keypad": pointer speed in system settings -> (should stay OFF)
+- see: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
+- "touchpad settings" -> (MAXED)
+- mouse settings in control panel -> (MAXED)
+- Registrierungseditor (mouse settings and touchpad settings) -> (MAXED)
+- `Computer\HKEY_CURRENT_USER\Control Panel\Mouse` -> mouse speed to 2
+- `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad` -> cursor speed to 20
+- "control your mouse with a keypad": pointer speed in system settings -> (should stay OFF)
 
-     With logitech mice just download “options+” and set the sensitivity inside the app.
+*disable caps lock*
 
-- disable caps lock + page-up / page-down keys
+- https://github.com/randyrants/sharpkeys
+- https://www.randyrants.com/sharpkeys/faq.htm
+- `winget install -e --id XPFFCG7M673D4F`
 
-     [https://github.com/randyrants/sharpkeys](https://github.com/randyrants/sharpkeys)
+![lenovo setting](assets/Untitled.png)
 
-     [https://www.randyrants.com/sharpkeys/faq.htm](https://www.randyrants.com/sharpkeys/faq.htm)
+![surface setting](assets/Untitled%201.png)
 
-     `winget install -e --id XPFFCG7M673D4F`
-
-     mappings on lenovo laptop:
-
-     ![Untitled](assets/Untitled.png)
-
-     mappings on microsoft “surface book 2” laptop:
-
-     ![Untitled](assets/Untitled%201.png)
 
 - WSL + Terminal
 
