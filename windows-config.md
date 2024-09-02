@@ -1,9 +1,9 @@
 # sys config
 
-*bios fix*
+*bios*
 
-- disable security measures for thunderport in BIOS
-- set system suspend (i think?) to Win11 instead of Linux in BIOS
+- disable security measures for thunderport
+- set system suspend (i think?) to Win11 instead of Linux
 - increase display refresh rate: `Advanced Display Settings > Refresh Rate`
 
 *increase trackpad speed*
