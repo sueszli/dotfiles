@@ -20,7 +20,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshenv
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshrc
 
-# asdf: install
+# asdf:
 # alt: venv, sdkman, jenv, nvm
 
 brew install curl git
@@ -31,23 +31,17 @@ asdf plugin list all
 asdf list all python
 asdf current
 
-# asdf: node
-
 brew install gpg gawk
 asdf plugin add nodejs
 asdf install nodejs latest
 asdf global nodejs latest
 node --version
 
-# asdf: java
-
 asdf plugin add java
 asdf install java openjdk-17
 asdf global java openjdk-17
 . ~/.asdf/plugins/java/set-java-home.zsh
 java --version
-
-# asdf: python
 
 brew install openssl readline sqlite3 xz zlib tcl-tk
 asdf plugin add python
@@ -67,15 +61,13 @@ brew install --cask obs # use native shortcut
 # brew install --cask aldente # too experimental
 # brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
-# development
-
 xcode-select --install
 brew install git
 brew install --cask git-credential-manager
 brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
 brew install --cask docker
 
-# menu bar apps
+# menu bar
 
 brew install --cask hiddenbar
 sudo xattr -r -d com.apple.quarantine /Applications/Hidden\ Bar.app
