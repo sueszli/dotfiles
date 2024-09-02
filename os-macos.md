@@ -16,6 +16,8 @@ nano ~/.zshrc # set `ZSH_THEME="refined`
 
 brew install zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshenv
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshenv
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshrc
