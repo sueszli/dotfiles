@@ -8,7 +8,7 @@
 
 *increase trackpad speed*
 
-- see: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
+- https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
 - "touchpad settings" → (MAXED)
 - mouse settings in control panel → (MAXED)
 - Registrierungseditor (mouse settings and touchpad settings) → (MAXED)
