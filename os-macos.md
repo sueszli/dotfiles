@@ -121,28 +121,6 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbit
 # undo: sudo defaults delete Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification && sudo pkill diskarbitrationd
 ```
 
-*app store apps*
-
-- horo timer (timer) → use clock app instead
-- tinyStopwatch (stopwatch) → use clock app instead
-- qi fm focus & relax songs (white noise) → configure to hide dock icon
-
-*driver: canon scanner*
-
-- https://hk.canon/en/support/0200553204
-- then go to settings > (icon on top right that displays the physical device) > scan options > image processing settings > detect the orientation of text original and rotate image
-
-*driver: lenovo docking station*
-
-- might not be necessary
-- https://www.synaptics.com/products/displaylink-graphics/downloads/macos-connectivity-1.7.1?filetype=exe
-
-*driver: external monitor*
-
-- might not be necessary
-- problem described here: https://apple.stackexchange.com/questions/342682/how-to-properly-use-scaling-on-an-external-display-from-macbook-pro-2016?newreg=f9211d6ea2b14a96888112602c4e0536
-- download here: https://github.com/waydabber/BetterDisplay → create dummy display, set resolution to 115% with slider
-
 # settings app
 
 _us-keyboard layout with umlaute_
@@ -205,6 +183,21 @@ _configuration in settings app_
 	- https://github.com/ianyh/Amethyst
 - slate (8k stars)
 	- https://github.com/jigish/slate
+
+# drivers
+
+doesn't apply to my setup - just for companies that use quirky peripherals.
+
+*driver: lenovo docking station*
+
+- might not be necessary anymore
+- https://www.synaptics.com/products/displaylink-graphics/downloads/macos-connectivity-1.7.1?filetype=exe
+
+*driver: external monitor*
+
+- might not be necessary
+- problem described here: https://apple.stackexchange.com/questions/342682/how-to-properly-use-scaling-on-an-external-display-from-macbook-pro-2016?newreg=f9211d6ea2b14a96888112602c4e0536
+- download here: https://github.com/waydabber/BetterDisplay → create dummy display, set resolution to 115% with slider
 
 # emulators
 
