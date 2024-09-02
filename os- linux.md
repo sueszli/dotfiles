@@ -11,7 +11,6 @@
 *office365 workaround*
 
 - https://ruados.github.io/articles/2021-05/office365-wine → use agent switcher on your browser to download executables
-- Try clicking on it and using it directly
 - https://ruados.github.io/articles/2021-05/office365-wine
 - https://gist.github.com/raelgc/4ccc023830bfd12c0227
 - https://github.com/linuxangelhx/Install-Microsoft-Office-2016-on-Ubuntu-20.04/blob/master/installmso2016onubnutu.md
