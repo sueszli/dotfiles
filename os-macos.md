@@ -17,8 +17,6 @@ nano ~/.zshrc # set `ZSH_THEME="refined`
 brew install zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# persist bash config in zsh (not sure if this is useful)
-
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshenv
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshrc
 
