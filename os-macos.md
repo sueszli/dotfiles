@@ -168,7 +168,7 @@ _configuration in settings app_
 	- tap to click
 	- disable all shortcuts
 
-# alternative window managers
+# window managers
 
 - rectangle (most beginner friendly)
 	- `brew install rectangle`
