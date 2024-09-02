@@ -1,4 +1,4 @@
-> note: not up to date, the config file gets synced with the cloud 
+> note: not up to date, config file gets synced automatically
 
 # editor config
 
