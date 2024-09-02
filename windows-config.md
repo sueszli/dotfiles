@@ -25,65 +25,18 @@
 ![surface setting](assets/Untitled%201.png)
 
 
-- WSL + Terminal
+*wsl*
 
-     1. First install WSL
+- https://docs.microsoft.com/en-us/windows/wsl/install)
+     - `wsl install`
+     - `wsl --list --verbose`
+     - `wsl --set-default-version 2`
 
-           [https://docs.microsoft.com/en-us/windows/wsl/install](https://docs.microsoft.com/en-us/windows/wsl/install)
+- downlaod the “Terminal” app from the app store, configure it to open up Ubuntu bash and the dev folder on startup.
+- `sudo apt install preload`
+- configure github for WSL: https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git
 
-           `wsl install`
-
-           `wsl --list --verbose`
-
-           `wsl --set-default-version 2`
-
-     2. Then downlaod the “Terminal” app from the app store:
-
-           Configure it to open up Ubuntu bash and the dev folder on startup.
-
-           It should automatically open when you start your PC.
-
-     3. Update
-
-           `sudo apt-get update -y`
-
-           improve performance: `sudo apt install preload`
-
-     4. Configure github for WSL (different than anything else):
-
-           see: [https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git)
-
-           `sudo apt install git`
-
-           `git config --global user.name "Yahya Jabary"`
-
-           `git config --global user.email "jabaryyahya@gmail.com"`
-
-           `git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"`
-
-           `export GIT_SSL_NO_VERIFY=1`
-
-     5. Get “oh my bash”
-
-           [https://github.com/ohmybash/oh-my-bash](https://github.com/ohmybash/oh-my-bash)
-
-           Install
-
-           `bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"`
-
-           Then update the theme from “font” to “purity” so you get a super short and functional prompt with spacing between each command so you don’t get lost.
-
-           `nano ~/.bashrc`
-
-           update `OSH_THEME="font"` to `OSH_THEME="purity"`
-
-     6. Create dev folder for work
-
-           ie. open up something like: `/mnt/c/Users/Yahya Jabary/dev`
-
-           then set that directory to the start location of your “terminal” app whenever you open it up: [https://tubemint.com/make-wsl-terminal-default-directory/](https://tubemint.com/make-wsl-terminal-default-directory/)
-
-# Apps
+# apps
 
 - google drive download
 - logitech options+
