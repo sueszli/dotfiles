@@ -146,7 +146,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbit
 	- click on the "keyboard shortcuts..." button
 		- set capslock to no action and globe to emojis
 		- screenshots > double click "copy picture of selected area to clipboard" > set to `shift + cmd + s`
-	- select "modifier keys" tab on the left
+	- select "modifier keys" tab on the left, dusable caps lock
 	- select "spotlight" tab on the left and untoggle it all
 - mouse:
 	- max tracking speed
