@@ -76,7 +76,7 @@ brew install --cask raycast
 brew install --cask alt-tab
 brew install --cask notion-calendar
 brew install rectangle # cycle between ½ etc.
-brew install stats # show in dock, disable start at startup
+brew install stats # show in dock, enable start at startup
 brew install --cask scroll-reverser # alt: unnaturalscrollwheels
 
 # remove .DS_FILE from all git commits
