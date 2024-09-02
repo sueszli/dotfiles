@@ -7,7 +7,6 @@
 
 - set screenshot shortcut to: `Win+Shift+S`
 - disable caps lock: https://askubuntu.com/questions/574208/deactivate-caps-lock-in-14-04
-- shortcut open todo-list: command: `xdg-open https://www.notion.so/sueszli/Todo-04bda3d6ead0466c9236efead8a838bc`
 
 *office365 workaround*
 
