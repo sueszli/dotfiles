@@ -6,13 +6,16 @@ make sure to reboot.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew help
 
-# zsh + oh my zsh
+# zsh
 
 brew install zsh
 chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
 nano ~/.zshrc # set `ZSH_THEME="refined`
+
+brew install zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # persist bash config in zsh (not sure if this is useful)
 
