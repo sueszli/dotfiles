@@ -40,15 +40,10 @@
 
 - google drive download
 - logitech options+
-
-- python
-  install python and pip before everything else - otherwise there might be bugs regarding the chosen path and version in the environment
-- choclatey
-  [https://chocolatey.org/install](https://chocolatey.org/install)
-     - sudo command for powershell
-       [https://www.delftstack.com/howto/powershell/powershell-sudo/#:~:text=The sudo command is one,can completely control the system](https://www.delftstack.com/howto/powershell/powershell-sudo/#:~:text=The%20sudo%20command%20is%20one,can%20completely%20control%20the%20system)
-- winget
-  [https://docs.microsoft.com/en-us/windows/package-manager/winget/](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+- python: install first to avoid weird path variables
+- choclatey: https://chocolatey.org/install
+     - sudo command for powershell: https://www.delftstack.com/howto/powershell/powershell-sudo/#:~:text=The%20sudo%20command%20is%20one,can%20completely%20control%20the%20system
+- winget: https://docs.microsoft.com/en-us/windows/package-manager/winget/
   [https://apps.microsoft.com/store/detail/appinstaller/9NBLGGH4NNS1?hl=de-at&gl=AT](https://apps.microsoft.com/store/detail/appinstaller/9NBLGGH4NNS1?hl=de-at&gl=AT)
   might be installed by default now
 - Scoop
