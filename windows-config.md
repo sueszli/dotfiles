@@ -1,5 +1,7 @@
 # sys config
 
+*bios fix*
+
 - disable security measures for thunderport in BIOS
 - set system suspend (i think?) to Win11 instead of Linux in BIOS
 - increase display refresh rate: `Advanced Display Settings > Refresh Rate`
