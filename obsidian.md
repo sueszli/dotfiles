@@ -1,3 +1,5 @@
+> note: not up to date, the config file gets synced with the cloud 
+
 # editor config
 
 the config in this section must be set manually by clicking through stuff in the editor – but everything in the following sections must be set through the settings menu.
