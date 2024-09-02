@@ -53,7 +53,6 @@ brew install openssl readline sqlite3 xz zlib tcl-tk
 asdf plugin add python
 asdf install python 3.11.9
 asdf global python 3.11.9
-
 python3 --version
 
 # apps
