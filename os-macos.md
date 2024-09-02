@@ -68,8 +68,7 @@ brew install --cask android-file-transfer # alternatively: openmtp
 xcode-select --install
 brew install git
 brew install --cask git-credential-manager
-brew install --cask visual-studio-code@insiders
-brew install --cask jetbrains-toolbox
+brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
 brew install --cask docker
 
 # menu bar apps
