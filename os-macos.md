@@ -143,11 +143,10 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbit
 	- set to black
 - keyboard:
 	- set globe to emoji search
-	- turn off spotlight (replace with raycast app)
 	- "keyboard shortcuts..." button:
 		- screenshots > double click "copy picture of selected area to clipboard" > set to `shift + cmd + s`
 		- modifier keys > disable caps lock
-  		- spotlight > disable spotlight 
+  		- spotlight > disable spotlight (then replace with raycast app)
 - mouse:
 	- max tracking speed
 	- min scrolling speed
