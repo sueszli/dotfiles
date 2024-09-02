@@ -190,23 +190,21 @@ doesn't apply to my setup - just for companies that use quirky peripherals.
 
 *driver: lenovo docking station*
 
-- might not be necessary anymore
 - https://www.synaptics.com/products/displaylink-graphics/downloads/macos-connectivity-1.7.1?filetype=exe
 
 *driver: external monitor*
 
-- might not be necessary
 - problem described here: https://apple.stackexchange.com/questions/342682/how-to-properly-use-scaling-on-an-external-display-from-macbook-pro-2016?newreg=f9211d6ea2b14a96888112602c4e0536
 - download here: https://github.com/waydabber/BetterDisplay → create dummy display, set resolution to 115% with slider
 
 # emulators
 
-_linux emulators_
+*linux*
 
 - asahi linux: https://asahilinux.org/
 - lima: https://github.com/lima-vm/lima
 
-_windows emulators_
+*windows emulators*
 
 - UTM (improved QEMU - better performance than virtualbox)
 	- ✓ great free option
@@ -237,7 +235,7 @@ _windows emulators_
 	- mostly specialized on games
 	- https://www.codeweavers.com/crossover/download
 
-_macos keyboard shortcuts on windows and linux_
+*macos keyboard shortcuts on windows and linux*
 
 - https://github.com/gurbindersingh/mac-keybindings
 - https://github.com/rbreaves/sorun
