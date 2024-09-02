@@ -13,7 +13,7 @@
 
           1. "touchpad settings" -> (MAXED)
 
-          2. mouse settings in control panel --> (MAXED)
+          2. mouse settings in control panel -> (MAXED)
 
           3. Registrierungseditor (mouse settings and touchpad settings) -> (MAXED)
        
@@ -23,7 +23,7 @@
 
           `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad` -> cursor speed to 20
 
-          - "control your mouse with a keypad": pointer speed in system settings --> (should stay OFF)
+          - "control your mouse with a keypad": pointer speed in system settings -> (should stay OFF)
 
      With logitech mice just download “options+” and set the sensitivity inside the app.
 
@@ -105,7 +105,6 @@
 
 - google drive download
 - logitech options+
-
 
 - python
   install python and pip before everything else - otherwise there might be bugs regarding the chosen path and version in the environment
