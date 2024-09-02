@@ -63,12 +63,9 @@ brew install --cask obsidian
 brew install --cask microsoft-office
 brew install --cask android-file-transfer # alternatively: openmtp
 brew install --cask obs # use native shortcut
-
-# apps (not so useful)
-
-brew install --cask shottr # use native shortcut
-brew install --cask aldente # too experimental
-brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
+# brew install --cask shottr # use native shortcut
+# brew install --cask aldente # too experimental
+# brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 # development
 
