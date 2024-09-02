@@ -112,14 +112,14 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbit
 
 # settings app
 
-_us-keyboard layout with umlaute_
+*us-keyboard layout with umlaute*
 
 - https://github.com/patrick-zippenfenig/us-with-german-umlauts
 - alt: http://wordherd.com/keyboards/ 
 - alt: https://hci.rwth-aachen.de/usgermankeyboard 
 - alt: https://ke-complex-modifications.pqrs.org/?q=umlaut
 
-_configuration in settings app_
+*configuration in settings app*
 
 - notifications:
 	- disable when screen is locked
