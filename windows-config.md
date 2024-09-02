@@ -18,7 +18,7 @@
           3. Registrierungseditor (mouse settings and touchpad settings) -> (MAXED)
        
 
-            see: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
+          see: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines
              Computer\HKEY_CURRENT_USER\Control Panel\Mouse -> mouse speed to 2
 
           `Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad` -> cursor speed to 20
