@@ -77,7 +77,7 @@ brew install --cask hiddenbar
 sudo xattr -r -d com.apple.quarantine /Applications/Hidden\ Bar.app
 
 brew install --cask raycast
-brew install --cask alt-tab # has turned very slow since macos security measures
+brew install --cask alt-tab
 brew install --cask notion-calendar
 brew install rectangle # cycle between ½ etc.
 brew install stats # show in dock, disable start at startup
