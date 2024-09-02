@@ -62,10 +62,18 @@ brew install --cask obs # use native shortcut
 # brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 xcode-select --install
-brew install git
 brew install --cask git-credential-manager
 brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
 brew install --cask docker
+
+# git
+
+brew install git
+echo ".DS_Store" >> ~/.gitignore_global
+echo "._.DS_Store" >> ~/.gitignore_global
+echo "**/.DS_Store" >> ~/.gitignore_global
+echo "**/._.DS_Store" >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 
 # menu bar
 
@@ -78,14 +86,6 @@ brew install --cask notion-calendar
 brew install rectangle # cycle between ½ etc.
 brew install stats # show in dock, enable start at startup
 brew install --cask scroll-reverser # alt: unnaturalscrollwheels
-
-# remove .DS_FILE from all git commits
-
-echo ".DS_Store" >> ~/.gitignore_global
-echo "._.DS_Store" >> ~/.gitignore_global
-echo "**/.DS_Store" >> ~/.gitignore_global
-echo "**/._.DS_Store" >> ~/.gitignore_global
-git config --global core.excludesfile ~/.gitignore_global
 
 # show dot files in finder 
 
