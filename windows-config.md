@@ -98,14 +98,11 @@
 
            then set that directory to the start location of your “terminal” app whenever you open it up: [https://tubemint.com/make-wsl-terminal-default-directory/](https://tubemint.com/make-wsl-terminal-default-directory/)
 
-<br><br><br>
-
 # Apps
 
 - google drive download
 - logitech options+
 
-<br>
 
 - python
   install python and pip before everything else - otherwise there might be bugs regarding the chosen path and version in the environment
@@ -127,12 +124,8 @@
 
      go to power settings and set max limit for battery charging when plugged in
 
-<br>
-
 - firefox developer edition (used for work)
 - chrome (used for everything else)
-
-<br>
 
 - Notepads app
   [https://apps.microsoft.com/store/detail/notepads-app/9NHL4NSC67WM?hl=de-at&gl=at](https://apps.microsoft.com/store/detail/notepads-app/9NHL4NSC67WM?hl=de-at&gl=at)
@@ -157,8 +150,6 @@
 - gitkraken
 - Docker
 
-<br>
-
 - 7zip
 - earTrumpet (better soundbar)
 - mathpix
@@ -168,9 +159,3 @@
 - VLC
 - windscribe
 - whiteboard
-
-<br>
-
-- TU VPN (Cisco AnyConnect)
-  [https://www.it.tuwien.ac.at/en/services/network-infrastructure-and-server-services/tunet/vpn-virtual-private-network/instructions/anyconnect/linux](https://www.it.tuwien.ac.at/en/services/network-infrastructure-and-server-services/tunet/vpn-virtual-private-network/instructions/anyconnect/linux)
-  [https://www.it.tuwien.ac.at/services/netzwerkinfrastruktur-und-serverdienste/tunet/vpn-virtual-private-network/vpn-client-software/cisco-anyconnect](https://www.it.tuwien.ac.at/services/netzwerkinfrastruktur-und-serverdienste/tunet/vpn-virtual-private-network/vpn-client-software/cisco-anyconnect)
