@@ -42,8 +42,6 @@
 
 # apps
 
-- google drive download
-- logitech options+
 - python: install first to avoid weird path variables
 - choclatey: https://chocolatey.org/install
      - sudo command for powershell: https://www.delftstack.com/howto/powershell/powershell-sudo/#:~:text=The%20sudo%20command%20is%20one,can%20completely%20control%20the%20system
