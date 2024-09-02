@@ -18,7 +18,7 @@
 
 *wsl*
 
-- https://docs.microsoft.com/en-us/windows/wsl/install)
+- https://docs.microsoft.com/en-us/windows/wsl/install
      - `wsl install`
      - `wsl --list --verbose`
      - `wsl --set-default-version 2`
