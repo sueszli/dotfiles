@@ -62,6 +62,13 @@ brew install --cask google-drive
 brew install --cask obsidian
 brew install --cask microsoft-office
 brew install --cask android-file-transfer # alternatively: openmtp
+brew install --cask obs # use native shortcut
+
+# apps (not so useful)
+
+brew install --cask shottr # use native shortcut
+brew install --cask aldente # too experimental
+brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 # development
 
@@ -82,13 +89,6 @@ brew install --cask notion-calendar
 brew install rectangle # cycle between ½ etc.
 brew install stats # show in dock, disable start at startup
 brew install --cask scroll-reverser # alt: unnaturalscrollwheels
-
-# other stuff
-
-brew install --cask obs # use native shortcut
-brew install --cask shottr # use native shortcut
-brew install --cask aldente # too experimental
-brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 # remove .DS_FILE from all git commits
 
