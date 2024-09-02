@@ -46,7 +46,7 @@
 - choclatey: https://chocolatey.org/install
      - sudo command for powershell: https://www.delftstack.com/howto/powershell/powershell-sudo/#:~:text=The%20sudo%20command%20is%20one,can%20completely%20control%20the%20system
 - winget: https://docs.microsoft.com/en-us/windows/package-manager/winget/
-- Scoop: https://scoop.sh/
-- Power toys (tile management, muting microphone): https://docs.microsoft.com/en-us/windows/powertoys/](https://docs.microsoft.com/en-us/windows/powertoys/
+- scoop: https://scoop.sh/
+- power toys (tile management, muting microphone): https://docs.microsoft.com/en-us/windows/powertoys/](https://docs.microsoft.com/en-us/windows/powertoys/
      - enable admin mode on start of the app
      - disable showing mouse on pressing `alt` key twice
