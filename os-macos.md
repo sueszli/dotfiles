@@ -26,8 +26,9 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshenv
 echo "source /Users/sueszli/.bash_profile" >> ~/.zshrc
 
-# asdf:
-# alt: venv, sdkman, jenv, nvm
+#
+# asdf
+$
 
 brew install curl git
 brew install asdf
