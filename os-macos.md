@@ -1,12 +1,16 @@
 make sure to reboot.
 
 ```bash
+#
 # brew
+#
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew help
 
+#
 # zsh
+#
 
 brew install zsh
 chsh -s $(which zsh)
@@ -51,7 +55,9 @@ asdf install python 3.11.9
 asdf global python 3.11.9
 python3 --version
 
+#
 # apps
+#
 
 brew install --cask google-chrome
 brew install --cask google-drive
@@ -63,12 +69,14 @@ brew install --cask obs # use native shortcut
 # brew install --cask aldente # too experimental
 # brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
+brew install pandoc
+brew install --cask basictex
+export PATH=$PATH:/Library/TeX/texbin
+
 xcode-select --install
 brew install --cask git-credential-manager
 brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
 brew install --cask docker
-
-# git
 
 brew install git
 echo ".DS_Store" >> ~/.gitignore_global
@@ -77,7 +85,9 @@ echo "**/.DS_Store" >> ~/.gitignore_global
 echo "**/._.DS_Store" >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
+#
 # menu bar
+#
 
 brew install --cask hiddenbar
 sudo xattr -r -d com.apple.quarantine /Applications/Hidden\ Bar.app
@@ -89,25 +99,24 @@ brew install rectangle # cycle between ½ etc.
 brew install stats # show in dock, enable start at startup
 brew install --cask scroll-reverser # alt: unnaturalscrollwheels
 
-# show dot files in finder 
+#
+# config
+#
 
+# show dot files in finder 
 defaults write com.apple.finder AppleShowAllFiles YES
 
 # remove all apps from dockbar
-
 defaults write com.apple.dock persistent-apps -array
 
 # reset launchpad
-
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 
 # make dockbar hide faster
-
 defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
 # undo: defaults write com.apple.dock autohide-delay -float 0.5; defaults write com.apple.dock autohide-time-modifier -int 0.5 ;killall Dock
 
 # disable eject notification
-
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification -bool YES && sudo pkill diskarbitrationd
 # undo: sudo defaults delete Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification && sudo pkill diskarbitrationd
 ```
