@@ -60,6 +60,9 @@ python3 --version
 # apps
 #
 
+xcode-select --install
+softwareupdate --install-rosetta
+
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask obsidian
@@ -74,7 +77,6 @@ brew install pandoc
 brew install --cask basictex
 export PATH=$PATH:/Library/TeX/texbin
 
-xcode-select --install
 brew install --cask git-credential-manager
 brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
 brew install --cask docker
