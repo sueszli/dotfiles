@@ -28,7 +28,7 @@ echo "source /Users/sueszli/.bash_profile" >> ~/.zshrc
 
 #
 # asdf
-$
+#
 
 brew install curl git
 brew install asdf
@@ -62,6 +62,7 @@ python3 --version
 
 xcode-select --install
 softwareupdate --install-rosetta
+brew install --cask miniconda && conda init zsh && source ~/.zshrc
 
 brew install --cask google-chrome
 brew install --cask google-drive
