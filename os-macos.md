@@ -52,8 +52,10 @@ java --version
 
 brew install gcc xz libxt cairo pcre2 xquartz
 asdf plugin add r https://github.com/asdf-community/asdf-r.git
-export LDFLAGS="-L/opt/homebrew/opt/xz/lib $LDFLAGS"
 export CPPFLAGS="-I/opt/homebrew/opt/xz/include $CPPFLAGS"
+export LDFLAGS="-L/opt/homebrew/opt/xz/lib $LDFLAGS"
+export CPPFLAGS="-I/opt/homebrew/opt/pcre2/include $CPPFLAGS"
+export LDFLAGS="-L/opt/homebrew/opt/pcre2/lib $LDFLAGS"
 source ~/.zshrc
 R_EXTRA_CONFIGURE_OPTIONS='--enable-R-shlib --with-cairo' asdf install R latest
 R_EXTRA_CONFIGURE_OPTIONS='--enable-R-shlib --with-cairo' asdf global R latest
