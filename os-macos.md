@@ -50,6 +50,9 @@ asdf global java openjdk-17
 . ~/.asdf/plugins/java/set-java-home.zsh
 java --version
 
+brew install gcc xz libxt cairo pcre2
+asdf plugin-add R https://github.com/asdf-community/asdf-r.git
+
 brew install openssl readline sqlite3 xz zlib tcl-tk
 asdf plugin add python
 asdf install python 3.11.9
@@ -75,8 +78,9 @@ brew install --cask obs # use native shortcut
 # brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 brew install pandoc
-brew install --cask basictex
-export PATH=$PATH:/Library/TeX/texbin
+brew install --cask mactex
+# brew install --cask basictex
+# export PATH=$PATH:/Library/TeX/texbin
 
 brew install --cask git-credential-manager
 brew install --cask visual-studio-code # alternatively: jetbrains-toolbox
