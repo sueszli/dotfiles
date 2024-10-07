@@ -50,15 +50,13 @@ asdf global java openjdk-17
 . ~/.asdf/plugins/java/set-java-home.zs
 java --version
 
-brew install gcc xz libxt cairo pcre2
-brew install --cask xquartz
+brew install gcc xz libxt cairo pcre2 xquartz
 asdf plugin add r https://github.com/asdf-community/asdf-r.git
 export LDFLAGS="-L/opt/homebrew/opt/xz/lib $LDFLAGS"
 export CPPFLAGS="-I/opt/homebrew/opt/xz/include $CPPFLAGS"
 source ~/.zshrc
-
-asdf install R latest
-asdf global R latest
+R_EXTRA_CONFIGURE_OPTIONS='--enable-R-shlib --with-cairo' asdf install R latest
+R_EXTRA_CONFIGURE_OPTIONS='--enable-R-shlib --with-cairo' asdf global R latest
 R --version
 
 brew install openssl readline sqlite3 xz zlib tcl-tk
