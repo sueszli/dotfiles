@@ -52,6 +52,7 @@ java --version
 
 brew install gcc xz libxt cairo pcre2
 asdf plugin-add R https://github.com/asdf-community/asdf-r.git
+asdf install R latest
 
 brew install openssl readline sqlite3 xz zlib tcl-tk
 asdf plugin add python
