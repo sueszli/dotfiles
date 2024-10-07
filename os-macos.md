@@ -47,12 +47,16 @@ node --version
 asdf plugin add java
 asdf install java openjdk-17
 asdf global java openjdk-17
-. ~/.asdf/plugins/java/set-java-home.zsh
+. ~/.asdf/plugins/java/set-java-home.zs
 java --version
 
 brew install gcc xz libxt cairo pcre2
 brew install --cask xquartz
 asdf plugin add r https://github.com/asdf-community/asdf-r.git
+export LDFLAGS="-L/opt/homebrew/opt/xz/lib $LDFLAGS"
+export CPPFLAGS="-I/opt/homebrew/opt/xz/include $CPPFLAGS"
+source ~/.zshrc
+
 asdf install R latest
 asdf global R latest
 R --version
