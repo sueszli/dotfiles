@@ -51,6 +51,7 @@ asdf global java openjdk-17
 java --version
 
 brew install gcc xz libxt cairo pcre2
+brew install --cask xquartz
 asdf plugin add r https://github.com/asdf-community/asdf-r.git
 asdf install R latest
 asdf global R latest
