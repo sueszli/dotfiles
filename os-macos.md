@@ -78,7 +78,7 @@ brew install --cask obs # use native shortcut
 # brew install --cask hyperkey # or rcmd, hotkey-app, karabiner-elements
 
 brew install pandoc
-brew install --cask mactex # massive but easier to work with
+brew install --cask mactex
 eval "$(/usr/libexec/path_helper)"
 # brew install --cask basictex
 # export PATH=$PATH:/Library/TeX/texbin
