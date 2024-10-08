@@ -1,5 +1,5 @@
 {
-    // ----------------------------------------------------------------- editor
+    // ----------------------------------------------------------------- general editor settings
     
     // terminal position
     "workbench.panel.defaultLocation": "right",
@@ -15,22 +15,9 @@
     "notebook.editorOptionsCustomizations": {
         "editor.tabSize": 4,
         "editor.indentSize": 4,
-        "editor.insertSpaces": true
+        "editor.insertSpaces": false
     },
 
-    // ----------------------------------------------------------------- programming
-    
-    // type checking
-    "python.analysis.typeCheckingMode": "basic",
-    
-    // formatters
-    "editor.formatOnSave": false,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-
-    // ----------------------------------------------------------------- plugins
-    
     // accessing extensions in remote workspaces
     "remote.downloadExtensionsLocally": true,
     "extensions.supportUntrustedWorkspaces": {
@@ -42,8 +29,8 @@
 
     // grammarly
     "grammarly.files.include": [
-        "**/readme.md",
-        "**/README.md",
+        "**/*.md",
+        "**/*.md",
         "**/*.txt",
         "**/*.tex"
     ],
@@ -55,5 +42,18 @@
         "markdown": true,
         "plaintext": true,
         "scminput": false
+    },
+
+    // ----------------------------------------------------------------- language specific
+
+    // type checking
+    "python.analysis.typeCheckingMode": "off",
+    
+    // formatters
+    "editor.formatOnSave": false,
+
+    // preferred language server
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
     },
 }
