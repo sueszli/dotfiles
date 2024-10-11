@@ -123,7 +123,8 @@ brew install --cask scroll-reverser # alt: unnaturalscrollwheels
 open https://github.com/fsinf/userscripts/blob/master/tiss-enhancement.user.js
 
 #
-# config
+# defaults config
+# see: https://news.ycombinator.com/item?id=41810292
 #
 
 # show dot files in finder 
