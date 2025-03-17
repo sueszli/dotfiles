@@ -69,7 +69,8 @@ python3 --version
 
 # rust doesn't need asdf
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-. "$HOME/.cargo/env"
+grep -q 'export PATH="$HOME/.cargo/bin:$PATH"' ~/.zshrc || echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 
 #
 # apps
