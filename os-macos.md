@@ -117,12 +117,6 @@ brew install stats # show in dock, enable start at startup
 brew install --cask scroll-reverser # alt: unnaturalscrollwheels
 
 #
-# browser userscripts
-#
-
-open https://github.com/fsinf/userscripts/blob/master/tiss-enhancement.user.js
-
-#
 # defaults config
 # see: https://news.ycombinator.com/item?id=41810292
 #
