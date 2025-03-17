@@ -67,10 +67,7 @@ asdf install python 3.11.9
 asdf global python 3.11.9
 python3 --version
 
-#
-# rust
-#
-
+# rust doesn't need asdf
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 . "$HOME/.cargo/env"
 
