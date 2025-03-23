@@ -1,8 +1,10 @@
 {
-    // ----------------------------------------------------------------- general editor settings
+    // 
+    // general config
+    // 
     
     // terminal position
-    "workbench.panel.defaultLocation": "right",
+    "workbench.panel.defaultLocation": "bottom",
     
     // word wrap
     "editor.wordWrap": "on",
@@ -15,8 +17,11 @@
     "notebook.editorOptionsCustomizations": {
         "editor.tabSize": 4,
         "editor.indentSize": 4,
-        "editor.insertSpaces": false
+        "editor.insertSpaces": true
     },
+
+    // formatting on save
+    "editor.formatOnSave": false,
 
     // accessing extensions in remote workspaces
     "remote.downloadExtensionsLocally": true,
@@ -39,21 +44,38 @@
     "editor.tabCompletion": "on",
     "github.copilot.enable": {
         "*": true,
-        "markdown": true,
         "plaintext": true,
+        "markdown": true,
         "scminput": false
     },
+    "inlineChat.lineNaturalLanguageHint": false,
+    "github.copilot.chat.followUps": "always",
 
-    // ----------------------------------------------------------------- language specific
+    // 
+    // language specific config
+    // 
 
-    // type checking
+    // python
     "python.analysis.typeCheckingMode": "off",
     
-    // formatters
-    "editor.formatOnSave": false,
+    // r
+    "r.lsp.diagnostics": false,
+    "r.lsp.enabled": false,
+    "r.rmarkdown.enableCodeLens": false,
 
-    // preferred language server
+    // lsp per file
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook",
     },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "makefile.configureOnOpen": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "git.confirmSync": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.createEnvironment.trigger": "off",
 }
