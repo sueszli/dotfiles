@@ -27,7 +27,7 @@
 - `wsl install`
 - `wsl --list --verbose`
 - `wsl --set-default-version 2`
-- downlaod the “Terminal” app from the app store, configure it to open up Ubuntu bash and the dev folder on startup.
+- downlaod the "Terminal" app from the app store, configure it to open up Ubuntu bash and the dev folder on startup.
 - `sudo apt install preload`
 
 *disable caps lock*
