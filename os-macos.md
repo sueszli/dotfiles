@@ -1,5 +1,7 @@
 make sure to reboot.
 
+also check out: privacy.sexy
+
 ```bash
 #
 # brew
